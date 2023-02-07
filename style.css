@@ -1,0 +1,77 @@
+
+*{ padding: 0; margin: 0;}
+.body{ height: 1000px;}
+.screen-magic{  display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 200px;
+                left: 0px;}
+.magic{     display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            width: 60px;
+            border-radius: 0 50% 50% 0;}
+.icon{      display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            box-shadow: 0.4px 0.4px 0.4em rgba(20,20,20,0.7);
+            border-radius: 0 50% 50% 0;
+            position: absolute;
+            z-index: 1;}
+
+
+
+
+.icon-on{   display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px; width: 60px;
+            position: absolute;
+            z-index: 1;}
+.icon-off{  display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px; width: 60px;
+            position: absolute;
+            z-index: -1;}
+.modes{     display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            height: 260px; width: 260px;
+            box-shadow: 0.4px 0.4px 0.4em
+            rgba(20,20,20,0.4);
+            border-radius: 50%;
+            position: absolute;
+            z-index: 0;
+            top: -100px; left: -300px;}
+
+
+
+.mode-a, .mode-b, .mode-c,.mode-white, .mode-sombre{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px; width: 50px;
+                box-shadow: 0.4px 0.4px 0.4em
+                rgba(20,20,20,0.7);
+                border-radius: 50%;
+                position: absolute;}
+.mode-white{    background: white;
+                top: 4px; left: 100px;}
+.mode-sombre{   background: black;
+                border: 2px solid white;
+                top: 202px; left: 100px;}
+.mode-a{        background: linear-gradient(200deg,
+               blue,skyblue);
+                top: 30px; left: 170px;}
+.mode-b{        background: linear-gradient(90deg,
+                orange,orangered);
+                top: 100px; left: 200px;}
+.mode-c{        background: linear-gradient(45deg,
+                rgb(3, 180, 180),rgb(7, 113, 7));
+                top: 173px; left: 173px;}
